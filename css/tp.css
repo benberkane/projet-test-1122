@@ -1,0 +1,84 @@
+*{ box-sizing: border-box;
+
+}
+
+body{
+    background-color : rgb(240,240,240);
+    color: #fff;
+}
+#conteneur{
+    margin: 40px auto;
+    width: 960px;
+    border: 2px solid rgb(150,150,150);
+    min-height: 500px;
+    background: #fff;
+
+
+}
+.mon-flex{
+    display: flex;
+
+}
+
+/* *****************header*********** */
+#header{
+    background-color: dodgerblue;
+    color: white;
+    min-height: 80px;
+    text-align: center;
+}
+
+#logo{
+    width: 300px;
+    height: 120px;
+    background:  #6495ED ;
+    padding-top: 53px;
+
+
+}
+#banniére{
+    width: 660px;
+    height: 120px;
+    background: #4169e2 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#menu{
+    height: 50px;
+    line-height: 50px;
+    
+    
+}
+
+/* ********main********* */
+#main{
+    background: #fff;
+    min-height: 400px;
+
+}
+#colonne{
+    background: rgb(240,240,240);
+    color: rgb(150,150,150);
+    width: 300px;
+}
+#article{
+    background: rgb(240,240,240);
+    width: 620px;
+    border: 1px solid rgb(150,150,150);
+    margin: 20px;
+
+}
+
+/* **********footer************ */
+#footer{
+    background: skyblue;
+    min-height: 50px;
+
+}
+#footer a{
+    position: absolute;
+    left: calc(50% - 13px);
+    top: calc(50% - 9px);
+}
